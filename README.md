@@ -14,6 +14,6 @@ pyproject.toml
 are used for the virtual enviroment of poetry.
 -- --
 ### **Labs**
-Laboratories are organized in folders named "lab" followed by the number of a number: here the list with a small description:
+Laboratories are organized in folders named "lab" followed by its number: here the list with a small description:
 - lab1: set covering problem.
 
