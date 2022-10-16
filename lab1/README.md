@@ -38,7 +38,7 @@ Using an unit_cost of 1 speed up the process, visiting and processing less nodes
 | 20 | 5 | 134 | 32 |
 | 100 | 6 | 2,128 | 203 |
 | 500 | 8 | 12,662 | 1399 |
-| 100 | 9 | 28,952 | 3189 |
+| 1000 | 9 | 28,952 | 3189 |
 
 It has an execution time from 0.2s to 4s (depending on N), really fast but with the tradeoff of "w".
 
