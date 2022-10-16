@@ -11,7 +11,7 @@ Here some considerations:
 | 20 | 1110 | 37.700 | 23 |
 | 100 | - | - | - | - |
 | 500 | - | - | - | - |
-| 100 | - | - | - | - |
+| 1000 | - | - | - | - |
 
 For N highers than 20 the process time is so higher that i couldn't find a solution. I used an A* algorithm with the combination of the heuristic function:
 
