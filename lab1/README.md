@@ -29,7 +29,18 @@ and the unit_cost function:
 
 The idea behind this combination it's to prioritize the process of the nodes that are closer to the goal (the heuristic function calculate how many elements are left to reach the goal) and to set a cost equal to the list lenght. 
 
-Using an unit_cost of 1 speed up the process, and it works for N higher than 20 too but the solution it's not optimal so i didn't report it in the file.
+Using an unit_cost of 1 speed up the process, visiting and processing less nodes but obtaining higher "w":
+
+| N | nodes processed | state visited | n of elements (w) | 
+|---|---|---|---|
+| 5 | 4 | 56 | 5 |
+| 10 | 4 | 135 | 13 |
+| 20 | 5 | 134 | 32 |
+| 100 | 6 | 2,128 | 203 |
+| 500 | 8 | 12,662 | 1399 |
+| 100 | 9 | 28,952 | 3189 |
+
+It has an execution time from 0.2s to 4s (depending on N), really fast but with the tradeoff of "w".
 
 ## Source code
 Note that the state function, search function and the A*-algorithm are a modified version of the Professor Squillero's one.
