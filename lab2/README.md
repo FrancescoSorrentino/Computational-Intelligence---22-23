@@ -42,7 +42,7 @@ A different version of this algorithm would be using as genome a list of integer
 
 `if 0 = list not taken, if 1 = list taken`.
 
-That will reduce the rappresentation as a list of bits, easy to manage with simple genetic operator, and the size of each genome would be fixed! two problem solver with a simple change.
+That will reduce the rappresentation as a list of bits, easy to manage with simple genetic operator, and the size of each genome would be fixed! two problem solved with a simple change.
 Even if `N` would be much larger than 1000, the lists would be N integers.
 
 ## **Conclusions**
