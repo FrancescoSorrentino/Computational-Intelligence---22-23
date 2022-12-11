@@ -15,5 +15,7 @@ are used for the virtual enviroment of poetry.
 -- --
 ### **Labs**
 Laboratories are organized in folders named "lab" followed by its number: here the list with a small description:
-- lab1: set covering problem.
+- lab1: set covering problem using tree/graph search.
+- lab2: set covering problem using evolutionary algorithms (GA).
+- lab3: playing Nim with different agents (hard-coded, evolved rules, min-max, reinforcement learning)
 
